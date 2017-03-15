@@ -1,5 +1,5 @@
 /*!
- * vue-clipboards v0.2.5
+ * vue-clipboards v0.2.6
  * (c) 2017 卓文理 <531840344@qq.com>
  * Released under the MIT License.
  */
@@ -134,7 +134,7 @@
    * @desc  : VueClipboard
    */
 
-  var Clipboard = require('clipboard');
+  var Clipboard = require('clipboard/dist/clipboard.js');
 
   if (!Clipboard) {
       throw new Error('[vue-clipboards] cannot locate Clipboard.');
